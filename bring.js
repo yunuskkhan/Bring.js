@@ -30,14 +30,14 @@ class bring{
     }  
 }
 
-var bring = new bring();
+var brng = new bring();
 
 // addLibrary() function is used to add custom library list so that to include sspecific library by Library name using bring() functoin
-bring.addLibrary('bootstrap','<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">');
-bring.addLibrary('bootstrapIcons','<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">');
-bring.addLibrary('jq','<script src="https://code.jquery.com/jquery-3.6.0.min.js" ></script>');
+brng.addLibrary('bootstrap','<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">');
+brng.addLibrary('bootstrapIcons','<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">');
+brng.addLibrary('jq','<script src="https://code.jquery.com/jquery-3.6.0.min.js" ></script>');
 
 // call bring() function to identify the Library name and assign its src link to either head or end of the doc before </body> tag
-bring.bring('bootstrap','head');
-bring.bring('bootstrapIcons','head');
-bring.bring('jq','end');
+brng.bring('bootstrap','head');
+brng.bring('bootstrapIcons','head');
+brng.bring('jq','end');
