@@ -27,7 +27,7 @@ Now we have function to add our links or scripts and we name it
 ```
 In the above step we have saved our list of the packages that we need for our project so we can call them on any page instead of loading whole bunch of libraries where we don't need them all 
 
--- Using Bring() 
+-- Using Bring( )
 
 Now we use bring function to place the script or link to our DOM or Head by specifying after the name of library which we defined it earlies in with addLibrary() function
 
@@ -36,3 +36,11 @@ bring.bring('bootstrap','head');
 bring.bring('bootstrapIcons','head');
 bring.bring('jq','end');
 ```
+Now you have succesfully added the libraries where you mentioned in the 2nd argument of the function bring which is Location of the script of link in the DOM or Head.
+
+Thanks,
+
+Regards,
+Yunus Khan
+
+Developers Club
