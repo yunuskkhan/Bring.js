@@ -51,12 +51,10 @@ var brng = new bring();
 brng.addLibrary('bootstrap','https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css','link');
 brng.addLibrary('bootstrapIcons','https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css','link');
 brng.addLibrary('jq','https://code.jquery.com/jquery-3.6.0.min.js','script');
-brng.addLibrary('app','app.js','script');
-brng.addLibrary('pos_app','pos_app.js','script');
+// brng.addLibrary('app','app.js','script');
 
 // call bring() function to identify the Library name and assign its src link to either head or end of the doc before </body> tag
 brng.bring('bootstrap','head');
 brng.bring('bootstrapIcons','head');
 brng.bring('jq','end');
-brng.bring('pos_app','end');
-brng.bring('app','end');
+// brng.bring('app','end');
