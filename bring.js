@@ -3,7 +3,7 @@ Copyright (c) 2021, Developers Club. All rights reserved.
 version: 1.0.0
 build: 1
 
-# bringAction class perform an action of appending a link ot scrip to the either head or end of the DOM to use the libraries and reduces page loading time. 
+# bring class perform an action of appending a link ot scrip to the either head or end of the DOM to use the libraries and reduces page loading time. 
 # it is designed to make the web app faster to load and only bring the needed libraries to specific workplace instead of loading whole header file that make the webpage load very slow.
 */
 class bring{    
