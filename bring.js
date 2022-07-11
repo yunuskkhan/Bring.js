@@ -48,8 +48,8 @@ class bring{
 var brng = new bring();
 
 // addLibrary() function is used to add custom library list so that to include sspecific library by Library name using bring() functoin
-brng.addLibrary('bootstrap','https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css','link');
-brng.addLibrary('bootstrapIcons','https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css','link');
+brng.addLibrary('bootstrap','https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css','link');
+brng.addLibrary('bootstrapIcons','https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css','link');
 brng.addLibrary('jq','https://code.jquery.com/jquery-3.6.0.min.js','script');
 // brng.addLibrary('app','app.js','script');
 
